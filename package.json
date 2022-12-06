@@ -2,11 +2,10 @@
 	"name": "website",
 	"version": "1.0.0",
 	"description": "",
-	"source": ".src/index.html",
 	"homepage": "https://jvandy83.github.io/website/",
 	"scripts": {
-		"predeploy": "parcel build ./src/index.html",
-		"deploy": "gh-pages -d build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "parcel ./src/index.html --open",
 		"build": "parcel build ./src/index.html"
