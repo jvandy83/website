@@ -1,0 +1,27 @@
+{
+	"name": "website",
+	"version": "1.0.0",
+	"description": "",
+	"source": ".src/index.html",
+	"homepage": "https://jvandy83.github.io/website/",
+	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "parcel ./src/index.html --open",
+		"build": "parcel build ./src/index.html"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"autoprefixer": "^10.4.13",
+		"gh-pages": "^4.0.0",
+		"parcel": "^2.8.0",
+		"postcss": "^8.4.19",
+		"process": "^0.11.10",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"tailwindcss": "^3.2.4"
+	}
+}
