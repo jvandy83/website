@@ -23,9 +23,6 @@ export const App = () => {
 							resume
 						</a>
 					</li>
-					<li>projects</li>
-					<li>tech stack</li>
-					<li>contact me</li>
 				</ul>
 			</nav>
 			<div className='mt-16'>
@@ -103,10 +100,13 @@ export const App = () => {
 									information plus addresses and save them to an SQLite data
 									store.
 								</p>
-								<p className='py-2'>
+								<a
+									href='https://github.com/jvandy83/address-book.git'
+									className='py-2 cursor-pointer'
+								>
 									<span className='text-blue-200'>Source code:</span>{' '}
 									https://github.com/jvandy83/address-book.git
-								</p>
+								</a>
 								<div className='flex justify-center pt-4'>
 									<a href='http://addressbookapp.info'>
 										<button className='border p-2 rounded hover:bg-darkPurple hover:text-orange hover:border-transparent hover:-translate-y-px active:translate-y-px'>
@@ -129,10 +129,13 @@ export const App = () => {
 									class components and have slowly refactored it with modern
 									functional components and hooks.
 								</p>
-								<p className='py-2'>
+								<a
+									href='https://github.com/jvandy83/custom-color-app'
+									className='py-2 cursor-pointer'
+								>
 									<span className='text-blue-200'>Source code:</span>{' '}
 									https://github.com/jvandy83/custom-color-app
-								</p>
+								</a>
 								<div className='flex justify-center pt-4'>
 									<a
 										href='https://jvandy83.github.io/custom-color-app/#/'
