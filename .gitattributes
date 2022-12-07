@@ -1,4 +1,4 @@
+*.jpg filter=lfs diff=lfs merge=lfs -text
 /familyPic.92b0c4be.jpg filter=lfs diff=lfs merge=lfs -text
 /src/assets/images/familyPic.jpg filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
