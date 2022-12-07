@@ -152,7 +152,7 @@ export const App = () => {
 						<a href='https://twitter.com/vanthedev'>LinkedIn</a>
 					</li>
 					<li>
-						<a href='https://github.com/vanthedev'>GitHub</a>
+						<a href='https://github.com/jvandy83'>GitHub</a>
 					</li>
 					<li>
 						<a href='https://linkedin.com/in/vanthedev'>LinkedIn</a>
