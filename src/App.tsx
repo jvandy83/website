@@ -104,7 +104,7 @@ export const App = () => {
 									store.
 								</p>
 								<a
-									href='http://addressbookapp.info'
+									href='https://github.com/jvandy83/address-book.git'
 									className='py-2 cursor-pointer'
 								>
 									<span className='text-blue-200'>Source code:</span>{' '}
