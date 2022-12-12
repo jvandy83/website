@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
-import familyPic from './assets/images/familyPic.jpg';
+import familyPic from './assets/images/family-pic.jpg';
+import linkedinIcon from './assets/images/linkedin-icon.png';
+import githubIcon from './assets/images/github-icon.png';
+import twitterIcon from './assets/images/twitter-icon.png';
 
 export const App = () => {
 	const [showMore, setShowMore] = useState(false);
@@ -101,7 +104,7 @@ export const App = () => {
 									store.
 								</p>
 								<a
-									href='https://github.com/jvandy83/address-book.git'
+									href='http://addressbookapp.info'
 									className='py-2 cursor-pointer'
 								>
 									<span className='text-blue-200'>Source code:</span>{' '}
@@ -151,14 +154,20 @@ export const App = () => {
 			</div>
 			<footer>
 				<ul className='bg-black flex justify-around w-screen items-center h-24'>
-					<li>
-						<a href='https://twitter.com/vanthedev'>LinkedIn</a>
+					<li className='w-16'>
+						<a href='https://linkedin.com/in/vanthedev'>
+							<img src={linkedinIcon} alt='icon8.com' />
+						</a>
 					</li>
-					<li>
-						<a href='https://github.com/jvandy83'>GitHub</a>
+					<li className='w-20'>
+						<a href='https://github.com/jvandy83'>
+							<img src={githubIcon} alt='icon8.com' />
+						</a>
 					</li>
-					<li>
-						<a href='https://linkedin.com/in/vanthedev'>LinkedIn</a>
+					<li className='w-12'>
+						<a href='https://twitter.com/vanthedev'>
+							<img src={twitterIcon} alt='icon8.com' />
+						</a>
 					</li>
 				</ul>
 			</footer>
