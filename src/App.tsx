@@ -4,6 +4,7 @@ import familyPic from './assets/images/family-pic.jpg';
 import linkedinIcon from './assets/images/linkedin-icon.png';
 import githubIcon from './assets/images/github-icon.png';
 import twitterIcon from './assets/images/twitter-icon.png';
+import mediumIcon from './assets/images/medium-icon.png';
 
 export const App = () => {
 	const [showMore, setShowMore] = useState(false);
@@ -85,6 +86,31 @@ export const App = () => {
 							</section>
 						</div>
 					</div>
+					<section className='flex flex-col items-center my-12'>
+						<div className='my-8'>
+							<h1 className='text-4xl'>Blogs and Articles</h1>
+						</div>
+						<div>
+							<ul className='flex flex-col items-center'>
+								<li className='flex items-center text-xl text-blue-200 pb-4'>
+									<span className='pr-4'>
+										<img className='w-10' src={mediumIcon} alt='icon8.com' />
+									</span>
+									<a href='https://medium.com/@vanthedev/landing-my-first-job-as-a-self-taught-developer-3b6a3655c9c'>
+										Landing My First Job as a Self-Taught Developer
+									</a>
+								</li>
+								<li className='flex items-center text-xl text-blue-200 pb-4'>
+									<span className='pr-4'>
+										<img className='w-10' src={mediumIcon} alt='icon8.com' />
+									</span>
+									<a href='https://medium.com/@vanthedev/how-to-pre-populate-inputs-when-editing-forms-in-react-2530d6069ab3'>
+										How to pre-populate inputs when editing forms in React
+									</a>
+								</li>
+							</ul>
+						</div>
+					</section>
 					<section className='p-8 flex flex-col items-center'>
 						<div>
 							<h1 className='text-4xl'>Projects</h1>
