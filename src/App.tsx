@@ -125,9 +125,9 @@ export const App = () => {
 									React/Python and SQLite
 								</p>
 								<p className='py-2'>
-									A fully functional address book that lets you add contact
-									information plus addresses and save them to an SQLite data
-									store.
+									This is a fully functional address book that lets you add
+									contact information plus addresses and save them to an SQLite
+									data store. I'm using AWS S3 buckets to store profile images.
 								</p>
 								<a
 									href='https://github.com/jvandy83/address-book.git'
@@ -163,11 +163,50 @@ export const App = () => {
 									className='py-2 cursor-pointer'
 								>
 									<span className='text-blue-200'>Source code:</span>{' '}
-									https://github.com/jvandy83/custom-color-app
+									https://github.com/jvandy83/custom-color-app.git
 								</a>
 								<div className='flex justify-center pt-4'>
 									<a
 										href='https://jvandy83.github.io/custom-color-app/#/'
+										className='border p-2 rounded hover:bg-darkPurple hover:text-orange hover:border-transparent hover:-translate-y-px active:translate-y-px'
+									>
+										Have a look
+									</a>
+								</div>
+							</li>
+							<li className=' bg-orange rounded w-full xl:w-3/4 p-8 mt-8 shadow-lg bg-gradient-to-r from-orange to-fadedOrange'>
+								<div>
+									<p className='text-3xl text-blue-200'>Weather App</p>
+								</div>
+								<p className='py-2'>
+									<span className='text-blue-200'>Tech stack:</span>{' '}
+									React/TailwindCSS
+								</p>
+								<p className='py-2'>
+									I recently built this weather app as a take-home project. I'm
+									using the Google geo-location api to get latitude/longitude
+									before querying the openweather api. A particularly
+									challenging aspect of this application was storing recently
+									queried locations in local storage. Finding and updated arrays
+									or arrays of objects is always tedious with local storage.
+								</p>
+								<p className='py-2'>
+									I may persist this information is PostgreSQL or MongoDB in the
+									future. I spent a lot of time building helper functions to
+									convert values or render symbols like the directional arrow
+									for wind. It's pretty simple but there is a lot of logic
+									packed into this unassuming application.
+								</p>
+								<a
+									href='https://weather-app.co'
+									className='py-2 cursor-pointer'
+								>
+									<span className='text-blue-200'>Source code:</span>{' '}
+									https://github.com/jvandy83/weather-app.git
+								</a>
+								<div className='flex justify-center pt-4'>
+									<a
+										href='https://weather-app.co'
 										className='border p-2 rounded hover:bg-darkPurple hover:text-orange hover:border-transparent hover:-translate-y-px active:translate-y-px'
 									>
 										Have a look
