@@ -187,11 +187,12 @@ export const App = () => {
 									using the Google geo-location api to get latitude/longitude
 									before querying the openweather api. A particularly
 									challenging aspect of this application was storing recently
-									queried locations in local storage. Finding and updated arrays
-									or arrays of objects is always tedious with local storage.
+									queried locations in local storage. Finding and updating
+									arrays or arrays of objects is always tedious with local
+									storage.
 								</p>
 								<p className='py-2'>
-									I may persist this information is PostgreSQL or MongoDB in the
+									I may persist this information in PostgreSQL or MongoDB in the
 									future. I spent a lot of time building helper functions to
 									convert values or render symbols like the directional arrow
 									for wind. It's pretty simple but there is a lot of logic
